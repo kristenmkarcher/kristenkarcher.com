@@ -1,0 +1,165 @@
+section.top {
+    background: linear-gradient(#EBAFAD, #FFFFFF);
+}
+
+nav.navbar {
+    padding-top: 1%;
+}
+
+div.logo {
+    padding-left: 2%;
+}
+
+div.logo .navbar-brand {
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: #5C5C5C;
+}
+
+ul.nav {
+    margin-right: 1%;
+}
+
+ul.nav li a {
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: #5C5C5C;
+}
+
+button.nav-contact {
+    margin-top: 3%;
+    border-radius: 0px !important;
+    background-color: #E8706D;
+    color: #FFFFFF;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+div.main-head {
+    height: auto;
+    margin-top: 5%;
+}
+
+div.main-head-img img {
+    margin-left: 10%;
+    height: auto;
+    width: 100%;
+}
+
+div.main-head-txt {
+    margin-left: 4%;
+    padding-top: 10%;
+    font-family: 'Pacifico', cursive;
+    color: #FFFFFF;
+}
+
+div.main-head-txt h1 {
+    font-size: 48px;
+}
+
+div.main-break {
+    margin-top: 8%;
+}
+
+img.leaves1 {
+    width: 100%;
+    position: absolute;
+    left: -1%;
+}
+
+img.flamingo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: auto;
+}
+
+div.about {
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+div.about-head {
+    font-family: 'Cormorant Unicase', serif;
+    color: #E8706D;
+}
+
+div.about-head div h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+div.about-body {
+    font-family: 'Cormorant Garamond', serif;
+    color: #E8706D;
+}
+
+div.about-body div p {
+    font-size: 24px;
+}
+
+div.about-break {
+    margin-top: 12%;
+}
+
+div.bottom {
+    position: relative;
+    background-image: url(images/background1.png);
+    background-size: cover;
+}
+
+img.leaves2 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 5%;
+    z-index: 1;
+}
+
+div.projects {
+    margin-top: 40%;
+}
+
+div.project-img-long {
+    height: 200%;
+}
+
+img.project1 {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+img.project2 {
+    width: 100%;
+    height: 638px;
+    margin-bottom: 10%;
+}
+
+div.foot-head {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    color: #FFFFFF;
+}
+
+div.foot-head h3 {
+    font-size: 36px;
+}
+
+button.send-email {
+    border-radius: 0px !important;
+    background-color: #E8706D;
+    color: #FFFFFF;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    padding: 10px 80px;
+}
+
+img.leaves3 {
+    position: relative;
+    top: -250px;
+    left: -10px;
+    width: 35%;
+}
