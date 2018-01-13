@@ -60,21 +60,33 @@ div.main-head-txt h1 {
 }
 
 div.main-break {
-    margin-top: 8%;
 }
 
 img.flowers {
-    margin-top: -10%;
+    margin-top: 0%;
     width: 190%;
     position: absolute;
     left: 270%;
+    z-index: 1;
+}
+
+.zigzag {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    border-top: 0px solid #0FF6F95;
+    background: linear-gradient(-45deg, transparent 75%, #FF6F95 75%),
+                linear-gradient( 45deg, transparent 75%, #FF6F95 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 30px 30px, 30px 30px;
+    opacity: 0.5;
+    z-index: 0;
 }
 
 img.flamingo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
+    margin: auto;
+    width: 5%;
     height: auto;
 }
 
@@ -91,6 +103,7 @@ div.about-head {
 div.about-head div h2 {
     font-size: 48px;
     font-weight: 600;
+    margin-left: 4%;
 }
 
 div.about-body {
@@ -100,6 +113,51 @@ div.about-body {
 
 div.about-body div p {
     font-size: 115%;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+
+.polaroid-image a
+{
+	background: white;
+	float: left;
+	margin: 0 15px 30px 15px;
+	padding: 15px 15px 45px;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index: 0;
+    width: 100%;
+    height: auto;
+}
+
+.polaroid-image a:after {
+	color: #333;
+	font-size: 20px;
+	content: attr(title);
+	top: 15px;
+}
+
+.polaroid-image img { 
+	display: block; 
+	width: inherit; 
+}
+
+.polaroid-image a:hover{
+	-webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+	-webkit-transform: scale(1.2); 
+	-moz-transform: scale(1.2);
+        transform: scale(1.2);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+        box-shadow: 0 10px 20px rgba(0,0,0,.7);
 }
 
 div.about-break {
