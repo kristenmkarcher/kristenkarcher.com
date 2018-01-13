@@ -63,10 +63,11 @@ div.main-break {
     margin-top: 8%;
 }
 
-img.leaves1 {
-    width: 100%;
+img.flowers {
+    margin-top: -10%;
+    width: 190%;
     position: absolute;
-    left: -1%;
+    left: 270%;
 }
 
 img.flamingo {
@@ -79,16 +80,16 @@ img.flamingo {
 
 div.about {
     margin-top: 10%;
-    margin-left: 3%;
+    margin-left: auto;
 }
 
 div.about-head {
-    font-family: 'Cormorant Unicase', serif;
+    font-family: 'Pacifico', serif;
     color: #E8706D;
 }
 
 div.about-head div h2 {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 600;
 }
 
@@ -98,11 +99,11 @@ div.about-body {
 }
 
 div.about-body div p {
-    font-size: 24px;
+    font-size: 115%;
 }
 
 div.about-break {
-    margin-top: 12%;
+    margin-top: -2%;
 }
 
 div.bottom {
@@ -119,42 +120,49 @@ img.leaves2 {
     z-index: 1;
 }
 
+div.projects-head h2 {
+    font-family: 'Pacifico', serif;
+    color: #ffffff;
+    font-size: 48px;
+}
+
 div.projects {
     margin-top: 40%;
 }
 
-div.project-img-long {
-    height: 200%;
-}
-
 img.project1 {
     width: 100%;
-    margin-bottom: 10%;
+    margin-top: 20%;
 }
 
 img.project2 {
     width: 100%;
-    height: 638px;
+    height: 200px;
+    margin-top: 3%;
     margin-bottom: 10%;
 }
 
 div.foot-head {
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Pacifico', serif;
     color: #FFFFFF;
 }
 
 div.foot-head h3 {
-    font-size: 36px;
+    margin-top: -15%;
+    font-size: 48px;
 }
+
 
 button.send-email {
     border-radius: 0px !important;
     background-color: #E8706D;
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 28px;
-    padding: 10px 80px;
+    font-size: 40px;
+    padding: 10px 110px;
+    margin-bottom: 10%;
+    margin-top: 1%;
 }
 
 img.leaves3 {
@@ -162,4 +170,11 @@ img.leaves3 {
     top: -250px;
     left: -10px;
     width: 35%;
+}
+
+div.footer { 
+    padding: 5px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: #5C5C5C;
 }
