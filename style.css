@@ -28,8 +28,12 @@ ul.nav li a {
     color: #5C5C5C;
 }
 
+ul.nav li a.nav-contact-link:hover {
+    background-color: transparent;
+}
+
 button.nav-contact {
-    margin-top: 3%;
+    margin-top: -8%;
     border-radius: 0px !important;
     background-color: #E8706D;
     color: #FFFFFF;
