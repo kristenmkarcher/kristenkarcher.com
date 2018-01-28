@@ -10,7 +10,7 @@ section.top {
 
 nav.navbar {
     padding-top: 1%;
-    background-color: rgb(245, 146, 164);
+    background-color: #B845D4;
 }
 
 
@@ -18,12 +18,11 @@ nav.navbar {
     position: absolute;
     width: 100%;
     height: 30px;
-    border-top: 0px solid #0FF6F95; 
-    background: linear-gradient(-45deg, transparent 75%, #FF6F95 75%),
-                linear-gradient( 45deg, transparent 75%, #FF6F95 75%) 0 50%;
+    border-top: 0px solid #B845D4; 
+    background: linear-gradient(-45deg, transparent 75%, #B845D4 75%),
+                linear-gradient( 45deg, transparent 75%, #B845D4 75%) 0 50%;
     background-repeat: repeat-x;
     background-size: 30px 30px, 30px 30px;
-    opacity: 0.5;
     z-index: 0;
 }
 
@@ -35,7 +34,7 @@ div.logo .navbar-brand {
     font-family: 'Cormorant Unicase', serif;
     font-size: 30px;
     text-decoration: none;
-    color: #5C5C5C;
+    color: #FFF;
 }
 
 .navbar {
@@ -51,7 +50,7 @@ ul.nav li a {
     text-decoration: none;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-    color: #5C5C5C;
+    color: #FFF;
 }
 
 ul.nav li a.nav-contact-link:hover {
@@ -61,7 +60,7 @@ ul.nav li a.nav-contact-link:hover {
 button.nav-contact {
     margin-top: -8%;
     border-radius: 0px !important;
-    background-color: #E8706D;
+    background-color: #4BAD07;
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
@@ -84,6 +83,8 @@ div.main-head-txt {
     padding-top: 10%;
     font-family: 'Pacifico', cursive;
     color: #FFFFFF;
+        text-shadow: 0 0 5px #F765B9, 0 0 10px #F765B9, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+
 }
 
 div.main-head-txt h1 {
@@ -94,19 +95,12 @@ div.main-break {
 }
 
 img.flowers {
-    margin-top: -50%;
+    margin-top: -80%;
     width: 190%;
     position: absolute;
     left: 270%;
     z-index: 1;
     
-}
-
-img.flamingo {
-    display: block;
-    margin: auto;
-    width: 5%;
-    height: auto;
 }
 
 div.about {
@@ -115,13 +109,13 @@ div.about {
 }
 
 div.about h2 {
-    color: #E8706D;
+    color: #F765B9;
     margin-left: 4%;
 }
 
 div.about-body {
     font-family: 'Cormorant Garamond', serif;
-    color: #E8706D;
+    color: #F765B9;
 }
 
 div.about-txt {
@@ -226,13 +220,16 @@ div.foot-head {
 }
 
 div.foot-head h3 {
+    margin-top: 50px;
     font-size: 48px;
+    text-align: center;
+    line-height: 70px;
 }
 
 
 button.send-email {
     border-radius: 0px !important;
-    background-color: #E8706D;
+    background-color: #3FA8BF;
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 40px;
@@ -240,15 +237,24 @@ button.send-email {
     margin-top: 1%;
 }
 
+.btn {
+    transition: all .25s ease-in-out;
+}
+
+.btn:hover {
+    background: #FF7774;
+}
+
 div.foot-img {
     position: absolute;
-    top: 60%;
+    top: 65%;
+    width: 100%;
 }
 
 img.leaves3 {
     position: relative;
-    left: -10px;
-    width: 90%;
+    left: 5px;
+    width: 25%;
 }
 
 div.footer { 
@@ -257,3 +263,45 @@ div.footer {
     font-size: 20px;
     color: #5C5C5C;
 }
+
+@media (max-width: 768px) {
+    img.leaves2, img.leaves3 {
+        display: none;
+    }
+    
+    div.main-head-img img {
+        transform: translateX(35%);
+    }
+    
+    div.bottom {
+    top: -200px;
+    background: linear-gradient(0%, transparent 75%, #FF6F95 75%) 0 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    img.leaves2, img.leaves3 {
+        display: block;
+    }
+    
+    div.main-head-img img {
+        transform:translateX(0%);
+    }
+    
+    div.bottom {
+        background-image: url(images/background1.png);
+        background-position: top center;
+        background-size: cover;
+    }
+}
+
+
+/* img.flamingo {
+    display: block;
+    margin: auto;
+    width: 5%;
+    height: auto;
+    float: right;
+    margin-bottom: 30px;
+} 
+*/
