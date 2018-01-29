@@ -213,6 +213,8 @@ img.project2 {
     margin-bottom: 10%;
 }
 
+
+
 div.foot-head {
     text-align: center;
     font-family: 'Pacifico', serif;
@@ -225,7 +227,6 @@ div.foot-head h3 {
     text-align: center;
     line-height: 70px;
 }
-
 
 button.send-email {
     border-radius: 0px !important;
@@ -255,6 +256,19 @@ img.leaves3 {
     position: relative;
     left: 5px;
     width: 25%;
+}
+
+.floating-leaves {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+    @keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
 }
 
 div.footer { 
