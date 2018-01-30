@@ -53,6 +53,10 @@ ul.nav li a {
     color: #FFF;
 }
 
+ul.nav li a:hover {
+    color: #b845d4;
+}
+
 ul.nav li a.nav-contact-link:hover {
     background-color: transparent;
 }
@@ -236,6 +240,7 @@ button.send-email {
     font-size: 40px;
     padding: 10px 110px;
     margin-top: 1%;
+    z-index: 1;
 }
 
 .btn {
@@ -250,12 +255,15 @@ div.foot-img {
     position: absolute;
     top: 65%;
     width: 100%;
+    z-index: 0 !important;
+    margin-right: 0;
 }
 
 img.leaves3 {
     position: relative;
     left: 5px;
     width: 25%;
+    margin-right: 0;
 }
 
 .floating-leaves {
@@ -269,6 +277,10 @@ img.leaves3 {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }    
+}
+
+div.foot {
+    z-index: 1 !important;
 }
 
 div.footer { 
