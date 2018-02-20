@@ -56,6 +56,10 @@ button.nav-contact {
     font-size: 20px;
 }
 
+button.nav-contact:hover {
+    background-color: #FF9DB2;
+}
+
 div.logo-image {
     text-align: center;
 }
@@ -91,9 +95,10 @@ button.view-prototype {
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-    -moz-box-shadow:    1px 1px 1px 1px #888;
-    -webkit-box-shadow: 1px 1px 1px 1px #888;
-    box-shadow:         1px 1px 1px 1px #888;
+}
+
+button.view-prototype:hover {
+    background-color: #FF9DB2;
 }
 
 div.laptop-image {
@@ -102,10 +107,9 @@ div.laptop-image {
 
 div.laptop-image img {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-top: 50px;
-
 }
 
 div.dots {
@@ -129,8 +133,6 @@ div.problem {
     color: #7F5F66;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
-    /*margin-top: 6%;
-    margin-right: -50px;*/
 }
 
 div.problem-dots, div.problem-body {
@@ -138,7 +140,6 @@ div.problem-dots, div.problem-body {
 }
 
 div.iphones img {
-    /*margin-top: -10px;*/
     width: 100%;
     height: auto;
 }
@@ -303,7 +304,7 @@ div.logo-design-intro {
 
 div.logo-design-img img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -356,7 +357,7 @@ div.user-flow-intro {
 
 div.user-flow-image img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -391,7 +392,7 @@ div.detail-pages, div.detail-page-image {
 }
 
 div.detail-page-image img {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -406,7 +407,7 @@ div.shopping-cart {
 
 div.shopping-cart-image img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -435,7 +436,7 @@ div.designing-homepage-intro {
 
 div.homepage-wireframes img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -458,7 +459,7 @@ div.about-pref-test {
 
 div.preference-wireframes img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -473,7 +474,7 @@ div.final-design {
 
 div.preference-final-design img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -487,7 +488,7 @@ div.about-final-design {
 
 div.final-design-images img {
     margin-top: 50px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -533,9 +534,11 @@ button.send-email {
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-    -moz-box-shadow:    1px 1px 1px 1px #888;
-    -webkit-box-shadow: 1px 1px 1px 1px #888;
-    box-shadow:         1px 1px 1px 1px #888;
+}
+
+button.send-email:hover {
+    background-color: #FF5075;
+    color: #fff;
 }
 
 div.carousel-image img {

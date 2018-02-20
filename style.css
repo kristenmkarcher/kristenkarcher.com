@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 h2 {
     font-size: 48px;
     font-family: 'Pacifico', serif;
@@ -10,7 +14,7 @@ section.top {
 
 nav.navbar {
     padding-top: 1%;
-    background-color: #B845D4;
+    background-color: #BA8FC4;
 }
 
 
@@ -18,9 +22,9 @@ nav.navbar {
     position: absolute;
     width: 100%;
     height: 30px;
-    border-top: 0px solid #B845D4; 
-    background: linear-gradient(-45deg, transparent 75%, #B845D4 75%),
-                linear-gradient( 45deg, transparent 75%, #B845D4 75%) 0 50%;
+    border-top: 0px solid #BA8FC4; 
+    background: linear-gradient(-45deg, transparent 75%, #BA8FC4 75%),
+                linear-gradient( 45deg, transparent 75%, #BA8FC4 75%) 0 50%;
     background-repeat: repeat-x;
     background-size: 30px 30px, 30px 30px;
     z-index: 0;
@@ -64,7 +68,7 @@ ul.nav li a.nav-contact-link:hover {
 button.nav-contact {
     margin-top: -8%;
     border-radius: 0px !important;
-    background-color: #4BAD07;
+    background-color: #36007F;
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
@@ -76,26 +80,27 @@ div.main-head {
 }
 
 div.main-head-img img {
-/*    margin-left: 10%; */
     height: auto;
-    width: 100%;
+    width: 80%;
     max-width: 465px;
 }
 
 div.main-head-txt {
     margin-left: 4%;
-    padding-top: 10%;
-    font-family: 'Pacifico', cursive;
-    color: #FFFFFF;
-        text-shadow: 0 0 5px #F765B9, 0 0 10px #F765B9, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
-
+    padding-top: 5%;
 }
 
 div.main-head-txt h1 {
+    font-family: 'Pacifico', cursive;
+    color: #FFFFFF;
+        text-shadow: 0 0 5px #F765B9, 0 0 10px #F765B9, 0 0 5px #ff0080, 0 0 5px #ff0080, 0 0 5px #ff0080, 0 0 30px #ff0080, 0 0 50px #ff0080;
     font-size: 48px;
 }
 
-div.main-break {
+div.main-head-txt h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    color: #7F5B6D;
 }
 
 img.flowers {
@@ -119,7 +124,7 @@ div.about h2 {
 
 div.about-body {
     font-family: 'Cormorant Garamond', serif;
-    color: #F765B9;
+    color: #7F5B6D;
 }
 
 div.about-txt {
@@ -225,6 +230,8 @@ div.foot-head {
     text-align: center;
     font-family: 'Pacifico', serif;
     color: #FFFFFF;
+    position: relative;
+    z-index: 5;
 }
 
 div.foot-head h3 {
@@ -250,7 +257,8 @@ button.send-email {
 }
 
 .btn:hover {
-    background: #FF7774;
+    background: #FFFFFF;
+    color: #36017E;
 }
 
 div.foot-img {

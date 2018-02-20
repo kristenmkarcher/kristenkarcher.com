@@ -1,5 +1,13 @@
 body {
-    background: linear-gradient(to right, #75CDA9, #FFFFFF);
+    
+}
+
+div.alt-sec-down {
+    background: linear-gradient(#75CDA9, #FFFFFF);
+}
+
+div.alt-sec-up {
+    background: linear-gradient(#ffffff, #75CDA9);
 }
 
 h1 {
@@ -8,7 +16,7 @@ h1 {
 }
 
 nav.navbar {
-    background: linear-gradient(to right, #75CDA9, #FFFFFF);
+    background-color: #75CDA9;
 
 }
 
@@ -56,6 +64,11 @@ button.nav-contact {
     font-size: 20px;
 }
 
+button.nav-contact:hover {
+    background-color: #fff;
+    color: #F78E7B;
+}
+
 div.logo-image {
     text-align: center;
 }
@@ -78,8 +91,6 @@ div.about-text {
     color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
-    /*margin-top: -5px;
-    margin-left: 35%;*/
     text-align: center;
 }
 
@@ -91,9 +102,6 @@ button.view-prototype {
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-    -moz-box-shadow:    1px 1px 1px 1px #5C5C5C;
-    -webkit-box-shadow: 1px 1px 1px 1px #5C5C5C;
-    box-shadow:         1px 1px 1px 1px #5C5C5C;
 }
 
 div.iphone-image {
@@ -102,7 +110,7 @@ div.iphone-image {
 
 div.iphone-image img {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-top: 50px;
 
@@ -291,7 +299,7 @@ div.analysis-body, div.analysis-body h4, div.analysis-body p {
 div.logo-design {
     color: #0097B1;
     position: relative;
-    margin-top: 50px;
+    padding-top: 50px;
     font-size: 50px;
     font-family: 'Pacifico';
     text-align: center;
@@ -306,7 +314,7 @@ div.logo-design-intro {
 
 div.logo-design-img img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -359,7 +367,7 @@ div.user-flow-intro {
 
 div.user-flow-image img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -427,7 +435,7 @@ div.shopping-cart-intro {
 div.designing-homepage {
     color: #0097B1;
     position: relative;
-    margin-top: 50px;
+    padding-top: 50px;
     font-size: 50px;
     font-family: 'Pacifico';
     text-align: center;
@@ -442,7 +450,7 @@ div.designing-homepage-intro {
 
 div.homepage-wireframes img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -465,7 +473,7 @@ div.about-pref-test {
 
 div.preference-wireframes img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -480,7 +488,7 @@ div.final-design {
 
 div.preference-final-design img {
     margin-top: 40px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -540,11 +548,12 @@ button.send-email {
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-    -moz-box-shadow:    1px 1px 1px 1px #888;
-    -webkit-box-shadow: 1px 1px 1px 1px #888;
-    box-shadow:         1px 1px 1px 1px #888;
 }
 
+button.send-email:hover, button.view-prototype:hover {
+    background-color: #fff;
+    color: #12B6D2;
+}
 
 div.foot {
     z-index: 1 !important;
@@ -569,6 +578,7 @@ div.footer {
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
     color: #4A4A4A;
+    text-align: left;
 }
 
 
