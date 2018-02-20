@@ -105,11 +105,12 @@ div.main-head-txt h3 {
 
 img.flowers {
     margin-top: -80%;
-    width: 190%;
+    width: 100%;
     position: absolute;
-    left: 260%;
+    left: 290%;
+    padding-top: 100px;
     z-index: 1;
-    
+    overflow-x: hidden;
 }
 
 div.about {
@@ -193,12 +194,14 @@ div.bottom {
 
 div.leaves-2 {
     position: absolute;
-    top: -1%
+    top: -1%;
+    overflow-x: hidden;
 }
 
 img.leaves2 {
     width: 100%;
     height: auto;
+    overflow-x: hidden;
 }
 
 div.projects-head h2 {
@@ -274,6 +277,7 @@ img.leaves3 {
     left: 5px;
     width: 25%;
     margin-right: 0;
+    overflow-x: hidden;
 }
 
 .floating-leaves {
@@ -286,7 +290,9 @@ img.leaves3 {
     @keyframes floating {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 15px); }
-    to   { transform: translate(0, -0px); }    
+    to   { transform: translate(0, -0px); }  
+        
+    overflow-x: hidden;
 }
 
 div.foot {
@@ -303,6 +309,7 @@ div.footer {
 @media (max-width: 768px) {
     img.leaves2, img.leaves3 {
         display: none;
+        overflow-x: hidden;
     }
     
     div.main-head-img img {
@@ -318,6 +325,7 @@ div.footer {
 @media (min-width: 769px) {
     img.leaves2, img.leaves3 {
         display: block;
+        overflow-x: hidden;
     }
     
     div.main-head-img img {
