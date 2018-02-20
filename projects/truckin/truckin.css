@@ -117,7 +117,7 @@ div.iphone-image img {
 }
 
 
-div.dots-white-1 {
+div.dots-blue-1 {
     margin-top: 80px;
     text-align: center;
 }
@@ -139,7 +139,7 @@ div.problem {
     
 }
 
-div.problem-dots-white, div.problem-body {
+div.problem-dots-blue, div.problem-body {
     margin-top: 40px;
     text-align: center;
 }
@@ -172,7 +172,7 @@ div.survey-intro {
     text-align: center;
 }
 
-div.dots-white-2 {
+div.dots-blue-2 {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -449,6 +449,14 @@ div.designing-homepage {
     text-align: center;
 }
 
+div.designing-homepage-2 {
+    color: #0097B1;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Pacifico';
+    text-align: center;
+}
+
 div.designing-homepage-intro {
     color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
@@ -517,7 +525,7 @@ div.final-design-images img {
 div.what-i-learned {
     color: #0097B1;
     position: relative;
-    margin-top: 60px;
+    padding-top: 60px;
     font-size: 50px;
     font-family: 'Pacifico';
     text-align: center;
@@ -571,13 +579,25 @@ div.project-images {
     margin-top: 20px;
 }
 
+div.projects-head {
+    margin-top: 100px;
+    color: #FF2EA7;
+}
+
 div.peachface-project-image img {
-    width: 100%;
+    width: 80%;
     height: auto;
+        
 }
 
 div.blocbox-project-image img {
-    width: 100%;
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+}
+
+div.blocjams-project-image img {
+    width: 50%;
     height: auto;
 }
 

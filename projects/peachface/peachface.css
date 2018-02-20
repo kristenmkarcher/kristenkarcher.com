@@ -114,6 +114,7 @@ div.laptop-image img {
 
 div.dots {
     text-align: center;
+    padding-top: 50px;
 }
 
 div.dots img{
@@ -559,14 +560,30 @@ div.foot {
     z-index: 1 !important;
 }
 
+div.projects-head {
+    margin-top: 20px;
+    color: #FF5075;
+}
+
+div.project-images {
+    margin-top: 20px;
+}
+
 div.truckin-project-image img {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
 div.blocbox-project-image img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin-top: 15%;
+}
+
+div.blocjams-project-image img {
+    width: 70%;
+    height: auto;
+    margin-top: 5%;
 }
 
 div.footer { 
