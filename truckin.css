@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #FFFFFF, #FDD0D6);
+    background: linear-gradient(to right, #75CDA9, #FFFFFF);
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
 }
 
 nav.navbar {
-    background: linear-gradient(to right, #FFFFFF, #FDD0D6);
+    background: linear-gradient(to right, #75CDA9, #FFFFFF);
 
 }
 
@@ -25,7 +25,7 @@ div.logo .navbar-brand {
     font-family: 'Cormorant Unicase', serif;
     font-size: 30px;
     text-decoration: none;
-    color: #7F5F66;
+    color: #4A4A4A;
 }
 
 ul.nav {
@@ -36,7 +36,7 @@ ul.nav li a {
     text-decoration: none;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-    color: #7F5F66;
+    color: #4A4A4A;
 }
 
 ul.nav li a:hover {
@@ -50,7 +50,7 @@ ul.nav li a.nav-contact-link:hover {
 button.nav-contact {
     margin-top: -8%;
     border-radius: 0px !important;
-    background-color: #FF5075;
+    background-color: #F78E7B;
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
@@ -66,16 +66,16 @@ div.logo-image img {
 }
 
 div.logo-text {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 20px;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
 div.about-text {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     /*margin-top: -5px;
@@ -87,20 +87,20 @@ button.view-prototype {
     margin-top: 20px; 
     border-radius: 0px !important;
     padding: 10px 40px;
-    background-color: #FF5075;
+    background-color: #12B6D2;
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-    -moz-box-shadow:    1px 1px 1px 1px #888;
-    -webkit-box-shadow: 1px 1px 1px 1px #888;
-    box-shadow:         1px 1px 1px 1px #888;
+    -moz-box-shadow:    1px 1px 1px 1px #5C5C5C;
+    -webkit-box-shadow: 1px 1px 1px 1px #5C5C5C;
+    box-shadow:         1px 1px 1px 1px #5C5C5C;
 }
 
-div.laptop-image {
+div.iphone-image {
     text-align: center;
 }
 
-div.laptop-image img {
+div.iphone-image img {
     position: relative;
     width: 100%;
     height: auto;
@@ -108,17 +108,14 @@ div.laptop-image img {
 
 }
 
-div.dots {
-    text-align: center;
-}
 
-div.dots img{
-    /*margin-top: 40px;
-    margin-left: 30%;*/
+div.dots-white-1 img {
+    margin-top: 80px;
+    margin-left: 250px;
 }
 
 div.introduction {
-    color: #7F5F66;
+    color: 4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     margin-top: 50px;
@@ -126,19 +123,20 @@ div.introduction {
 }
 
 div.problem {
-    color: #7F5F66;
+    color: 4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
-    /*margin-top: 6%;
-    margin-right: -50px;*/
+    text-align: center;
+    margin-top: 30px;
+    
 }
 
-div.problem-dots, div.problem-body {
-    margin-top: 9%;
+div.problem-dots-white, div.problem-body {
+    margin-top: 60px;
+    text-align: center;
 }
 
-div.iphones img {
-    /*margin-top: -10px;*/
+div.food-truck img {
     width: 100%;
     height: auto;
 }
@@ -149,17 +147,16 @@ div.single-dots img {
 }
 
 div.user-surveys {
-    color: #7F283B;
+    color: #00A8C5;
     position: relative;
-    /*margin-top: 100px;
-    margin-left: 42%;*/
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    margin-top: 140px;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
 div.survey-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     /*margin-top: -5px;
@@ -167,9 +164,11 @@ div.survey-intro {
     text-align: center;
 }
 
-div.divider {
+div.dots-white-2 img {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 250px;
 }
 
 div.survey-list p {
@@ -177,14 +176,14 @@ div.survey-list p {
     font-size: 30px;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
-    color: #7F5F66
+    color: #4A4A4A
 }
 
 div.user-persona {
-    margin-top: 80px;
-    color: #7F283B;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    margin-top: 150px;
+    color: #0097B1;
+    font-size: 50px;
+    font-family: 'Pacifico';
 }
 
 .persona {
@@ -193,27 +192,27 @@ div.user-persona {
 }
 
 div.persona-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
 }
 
 h1 {
-    font-family: 'Great Vibes', cursive;
-    color: #FF5075;
+    font-family: 'Pacifico', cursive;
+    color: #0097B1;
     font-size: 40px;
 }
 
 h3 {
     font-family: 'Cormorant Garamond', serif;
-    color: #7F283B
+    color: #4A4A4A
         
 }
 
 h5 {
     font-family: 'Cormorant Garamond', serif;
-    color: #7F5F66
+    color: #4A4A4A
 }
 
 div.avatar img {
@@ -235,7 +234,7 @@ div.personas-head {
 
 div.personas-body {
     font-family: 'Cormorant Garamond', serif;
-    color: #7F5F66;
+    color: #4A4A4A;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -247,9 +246,9 @@ div.analysis {
 div.analysis-head {
     text-align: center;
     margin-top: 5%;
-    color: #7F283B;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    color: #0097B1;
+    font-size: 50px;
+    font-family: 'Pacifico';
 }
 
 div.analysis-sub-head {
@@ -258,7 +257,7 @@ div.analysis-sub-head {
 }
 
 div.analysis-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
@@ -269,7 +268,12 @@ div.brand-logo img {
     height: auto;
     max-width: 150px;
     max-height: 150px;
-    margin-top: 20%;
+    margin-top: 40px;
+}
+
+div.grub img {
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 div.avatar img {
@@ -282,20 +286,20 @@ div.avatar img {
 
 div.analysis-body, div.analysis-body h4, div.analysis-body p {
     font-family: 'Cormorant Garamond', serif;
-    color: #7F5F66;
+    color: #4A4A4A;
 }
 
 div.logo-design {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 50px;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
 div.logo-design-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
@@ -308,16 +312,16 @@ div.logo-design-img img {
 }
 
 div.user-stories {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 80px;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
 div.user-stories-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
@@ -330,25 +334,25 @@ div.user-stories-list {
     
 }
 
-div.user-stories-background {
+div.user-story-background {
     margin-top: 30px;
-    background-image: url(images/user-stories-background.png);
+    background-image: url(images/user-story-background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 div.user-flow {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 100px;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
 div.user-flow-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
@@ -361,25 +365,29 @@ div.user-flow-image img {
 }
 
 div.high-fidelity {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 100px;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
+div.high-fidelity-image img {
+    margin-top: 60px;
+}
+
 div.detail-pages {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 150px;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
 div.detail-pages-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
@@ -396,11 +404,11 @@ div.detail-page-image img {
 }
 
 div.shopping-cart {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 100px;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
@@ -411,23 +419,23 @@ div.shopping-cart-image img {
 }
 
 div.shopping-cart-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
 }
 
 div.designing-homepage {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 50px;
-    font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
 div.designing-homepage-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
@@ -440,16 +448,16 @@ div.homepage-wireframes img {
 }
 
 div.preference-test {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 100px;
     font-size: 50px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
 div.about-pref-test {
-    color: #7F5F66;
+    color: #4A4A4A;
     margin-top: 50px;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
@@ -463,11 +471,11 @@ div.preference-wireframes img {
 }
 
 div.final-design {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 100px;
-    font-size: 60px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
@@ -478,7 +486,7 @@ div.preference-final-design img {
 }
 
 div.about-final-design {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
@@ -487,32 +495,32 @@ div.about-final-design {
 
 div.final-design-images img {
     margin-top: 50px;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
 div.what-i-learned {
-    color: #7F283B;
+    color: #0097B1;
     position: relative;
     margin-top: 60px;
-    font-size: 60px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
 div.what-i-learned-intro {
-    color: #7F5F66;
+    color: #4A4A4A;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     text-align: center;
 }
 
 div.contact-me {
-    color: #7F283B;
+    color: #4A4A4A;
     position: relative;
     margin-top: 80px;
-    font-size: 40px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-family: 'Pacifico';
     text-align: center;
 }
 
@@ -526,10 +534,10 @@ div.high-fidelity-image img {
 }
 
 button.send-email {
-    margin-top: -50px; 
+    margin-top: 0px; 
     border-radius: 0px !important;
     padding: 10px 40px;
-    background-color: #FF9DB2;
+    background-color: #12B6D2;
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
@@ -538,17 +546,16 @@ button.send-email {
     box-shadow:         1px 1px 1px 1px #888;
 }
 
-div.carousel-image img {
-    margin-top: 50px;
-    width: 100%;
-    height: auto;
-}
 
 div.foot {
     z-index: 1 !important;
 }
 
-div.truckin-project-image img {
+div.project-images {
+    margin-top: 20px;
+}
+
+div.peachface-project-image img {
     width: 100%;
     height: auto;
 }
@@ -562,7 +569,7 @@ div.footer {
     padding: 5px;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-    color: #5C5C5C;
+    color: #4A4A4A;
 }
 
 
