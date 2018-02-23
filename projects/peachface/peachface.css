@@ -1,14 +1,43 @@
 body {
-    background: linear-gradient(to right, #FFFFFF, #FDD0D6);
+    
 }
 
 h1 {
     color: #7F283B;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Raleway', serif;
+    color: #7F283B
+        
+}
+
+h5 {
+    font-family: 'Raleway', serif;
+    color: #7F5F66
+}
+
+p {
+    text-align: center;
+}
+
+div.sec-grad {
+    background: linear-gradient(to right, #FEE9F4, #FFD0E9);
+}
+
+div.sec-white {
+    background-color: #fff;
+}
+
+div.sec-grad, div.sec-white {
+    padding: 30px 0;
 }
 
 nav.navbar {
-    background: linear-gradient(to right, #FFFFFF, #FDD0D6);
+    background: linear-gradient(to right, #FEE9F4, #FFD0E9);
 
 }
 
@@ -22,8 +51,8 @@ div.logo {
 }
 
 div.logo .navbar-brand {
-    font-family: 'Cormorant Unicase', serif;
-    font-size: 30px;
+    font-family: 'Raleway', serif;
+    font-size: 25px;
     text-decoration: none;
     color: #7F5F66;
 }
@@ -34,8 +63,8 @@ ul.nav {
 
 ul.nav li a {
     text-decoration: none;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
     color: #7F5F66;
 }
 
@@ -52,12 +81,16 @@ button.nav-contact {
     border-radius: 0px !important;
     background-color: #FF5075;
     color: #FFFFFF;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
 }
 
 button.nav-contact:hover {
     background-color: #FF9DB2;
+}
+
+div.main-head {
+    padding-bottom: 0px;
 }
 
 div.logo-image {
@@ -74,13 +107,13 @@ div.logo-text {
     position: relative;
     margin-top: 20px;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.about-text {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     /*margin-top: -5px;
     margin-left: 35%;*/
@@ -91,14 +124,16 @@ button.view-prototype {
     margin-top: 20px; 
     border-radius: 0px !important;
     padding: 10px 40px;
-    background-color: #FF5075;
-    color: #FFFFFF;
-    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid #7F5F66;
+    color: #7F5F66;
+    font-family: 'Raleway', serif;
     font-size: 20px;
 }
 
 button.view-prototype:hover {
-    background-color: #FF9DB2;
+    border: 1px solid #FF5075;
+    color: #FF5075;
 }
 
 div.laptop-image {
@@ -124,7 +159,7 @@ div.dots img{
 
 div.introduction {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     margin-top: 50px;
     text-align: center;
@@ -132,17 +167,22 @@ div.introduction {
 
 div.problem {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
 }
 
-div.problem-dots, div.problem-body {
-    margin-top: 9%;
+div.problem-body p {
+    margin: 0;
 }
 
-div.iphones img {
+div.problem-dots, div.problem-body {
+    margin-top: 5%;
+}
+
+div.iphone img {
     width: 100%;
     height: auto;
+    margin-top: 30px;
 }
 
 div.single-dots img {
@@ -154,40 +194,30 @@ div.user-surveys {
     color: #7F283B;
     position: relative;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.survey-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
 
-div.divider {
-    text-align: center;
-    margin-top: 50px;
-}
-
-div.divider img {
-    width: 100%;
-    height: auto;
-}
 
 div.survey-list p {
     margin-top: 20px;
     font-size: 30px;
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     color: #7F5F66
 }
 
 div.user-persona {
-    margin-top: 80px;
     color: #7F283B;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
 }
 
 .persona {
@@ -197,26 +227,9 @@ div.user-persona {
 
 div.persona-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
-}
-
-h1 {
-    font-family: 'Great Vibes', cursive;
-    color: #FF5075;
-    font-size: 40px;
-}
-
-h3 {
-    font-family: 'Cormorant Garamond', serif;
-    color: #7F283B
-        
-}
-
-h5 {
-    font-family: 'Cormorant Garamond', serif;
-    color: #7F5F66
 }
 
 div.avatar img {
@@ -237,10 +250,18 @@ div.personas-head {
 }
 
 div.personas-body {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     color: #7F5F66;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+div.personas-body h5 {
+    font-size: 18px;
+}
+
+div.personas-body p {
+    font-size: 20px;
 }
 
 div.analysis {
@@ -249,10 +270,9 @@ div.analysis {
 
 div.analysis-head {
     text-align: center;
-    margin-top: 5%;
     color: #7F283B;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
 }
 
 div.analysis-sub-head {
@@ -262,9 +282,17 @@ div.analysis-sub-head {
 
 div.analysis-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
+}
+
+div.analysis-body p {
+    font-size: 20px;
+}
+
+div.analysis-body h4 {
+    font-size: 22px;
 }
 
 div.brand-logo img {
@@ -284,22 +312,21 @@ div.avatar img {
 }
 
 div.analysis-body, div.analysis-body h4, div.analysis-body p {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     color: #7F5F66;
 }
 
 div.logo-design {
     color: #7F283B;
     position: relative;
-    margin-top: 50px;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.logo-design-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -313,24 +340,25 @@ div.logo-design-img img {
 div.user-stories {
     color: #7F283B;
     position: relative;
-    margin-top: 80px;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
+    padding-bottom: 0;
 }
 
 div.user-stories-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
 
 div.user-stories-list {
     color: #FFFFFF;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
-    
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 div.user-stories-background {
@@ -344,15 +372,14 @@ div.user-stories-background {
 div.user-flow {
     color: #7F283B;
     position: relative;
-    margin-top: 100px;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.user-flow-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -366,38 +393,38 @@ div.user-flow-image img {
 div.high-fidelity {
     color: #7F283B;
     position: relative;
-    margin-top: 100px;
+    padding-top: 30px;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.high-fidelity-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 div.detail-pages {
     color: #7F283B;
     position: relative;
-    margin-top: 150px;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.detail-pages-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
 
-div.detail-pages, div.detail-page-image {
+div.detail-page-image {
     text-align: center;
-    margin-top:50px;;
+    margin-top:50px;
 }
 
 div.detail-page-image img {
@@ -410,7 +437,7 @@ div.shopping-cart {
     position: relative;
     margin-top: 100px;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
@@ -422,7 +449,7 @@ div.shopping-cart-image img {
 
 div.shopping-cart-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -430,15 +457,14 @@ div.shopping-cart-intro {
 div.designing-homepage {
     color: #7F283B;
     position: relative;
-    margin-top: 50px;
     font-size: 70px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.designing-homepage-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -452,22 +478,22 @@ div.homepage-wireframes img {
 div.preference-test {
     color: #7F283B;
     position: relative;
-    margin-top: 100px;
+    padding-top: 30px;
     font-size: 50px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.about-pref-test {
     color: #7F5F66;
     margin-top: 50px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
 
 div.preference-wireframes img {
-    margin-top: 40px;
+    margin-top: 30px;
     width: 80%;
     height: auto;
 }
@@ -475,9 +501,8 @@ div.preference-wireframes img {
 div.final-design {
     color: #7F283B;
     position: relative;
-    margin-top: 100px;
     font-size: 60px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
@@ -489,7 +514,7 @@ div.preference-final-design img {
 
 div.about-final-design {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
     margin-top: 50px;
@@ -504,15 +529,14 @@ div.final-design-images img {
 div.what-i-learned {
     color: #7F283B;
     position: relative;
-    margin-top: 60px;
     font-size: 60px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.what-i-learned-intro {
     color: #7F5F66;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -522,7 +546,7 @@ div.contact-me {
     position: relative;
     margin-top: 80px;
     font-size: 40px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
@@ -541,7 +565,7 @@ button.send-email {
     padding: 10px 40px;
     background-color: #FF9DB2;
     color: #FFFFFF;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 20px;
 }
 
@@ -561,7 +585,6 @@ div.foot {
 }
 
 div.projects-head {
-    margin-top: 20px;
     color: #FF5075;
 }
 
@@ -577,22 +600,44 @@ div.truckin-project-image img {
 div.blocbox-project-image img {
     width: 80%;
     height: auto;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 div.blocjams-project-image img {
     width: 70%;
     height: auto;
-    margin-top: 5%;
+    margin-top: 10%;
+}
+
+div.truckin-project-image img,
+div.blocbox-project-image img,
+div.blocjams-project-image img  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media(min-width: 950px) {
+    div.blocbox-project-image img {
+        margin-top: 15%;
+    }
 }
 
 div.footer { 
-    padding: 5px;
-    font-family: 'Cormorant Garamond', serif;
+    padding: 30px 5px 0px;
+    font-family: 'Raleway', serif;
     font-size: 20px;
-    color: #5C5C5C;
+    color: #4A4A4A;
 }
 
+.icon {
+    margin: 5px;
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+.icon:hover {
+    color: #FF5075;
+}
 
 
 

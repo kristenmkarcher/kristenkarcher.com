@@ -2,22 +2,92 @@ body {
     
 }
 
-div.alt-sec-down {
-    background: linear-gradient(#75CDA9, #FFFFFF);
+.row {
+    margin-right: -25px;
+    margin-left: -25px;
 }
 
 div.alt-sec-up {
-    background: linear-gradient(#ffffff, #75CDA9);
+    background-color: #F7F7F7;
+}
+
+div.alt-sec-down {
+    background: linear-gradient(to right, #18B2C8, #29DCEB);
+}
+
+div.alt-sec-down h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Playfair Display';
+}
+
+div.main-head,
+div.head-view-btn {
+    text-align: center;
+}
+
+div.bag-image {
+    text-align: right;
+}
+
+div.bag-image img {
+    position: relative;
+    width: 40%;
+    height: auto;
+    margin-top: -65px;
+
+}
+
+@media (max-width: 992px) {
+    div.bag-image {
+        display: none;
+    }
+}
+
+div.logo-image {
+    text-align: center;
+    margin-top: 74px
+}
+
+div.logo-image img {
+    position: relative;
+    
+}
+
+div.logo-text {
+    color: #FFFFFF;
+    position: relative;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+div.about-text {
+    color: #4A4A4A;
+    font-family: 'Raleway', serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+button.view-prototype {
+    margin-top: 20px; 
+    border-radius: 0px !important;
+    padding: 10px 40px;
+    background-color: rgba(255,255,255,0);
+    color: #FFF;
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    border: 1px solid white;
 }
 
 h1 {
-    color: #7F283B;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
 }
 
 nav.navbar {
-    background-color: #75CDA9;
-
+    background: linear-gradient(to right, #18B2C8, #29DCEB);
 }
 
 .navbar {
@@ -30,8 +100,8 @@ div.logo {
 }
 
 div.logo .navbar-brand {
-    font-family: 'Cormorant Unicase', serif;
-    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
     text-decoration: none;
     color: #4A4A4A;
 }
@@ -42,13 +112,13 @@ ul.nav {
 
 ul.nav li a {
     text-decoration: none;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
     color: #4A4A4A;
 }
 
 ul.nav li a:hover {
-    color: #FF5075;
+    color: #00A8C5;
 }
 
 ul.nav li a.nav-contact-link:hover {
@@ -58,90 +128,52 @@ ul.nav li a.nav-contact-link:hover {
 button.nav-contact {
     margin-top: -8%;
     border-radius: 0px !important;
-    background-color: #F78E7B;
+    background-color: #00A8C5;
     color: #FFFFFF;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 20px;
 }
 
 button.nav-contact:hover {
     background-color: #fff;
-    color: #F78E7B;
+    color: #00A8C5;
 }
 
-div.logo-image {
-    text-align: center;
-}
-
-div.logo-image img {
-    position: relative;
-    
-}
-
-div.logo-text {
-    color: #0097B1;
-    position: relative;
-    margin-top: 20px;
-    font-size: 50px;
-    font-family: 'Pacifico';
-    text-align: center;
-}
-
-div.about-text {
-    color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 25px;
-    text-align: center;
-}
-
-button.view-prototype {
-    margin-top: 20px; 
-    border-radius: 0px !important;
-    padding: 10px 40px;
-    background-color: #12B6D2;
-    color: #FFFFFF;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-}
-
-div.iphone-image {
-    text-align: center;
-}
-
-div.iphone-image img {
-    position: relative;
-    width: 80%;
-    height: auto;
-    margin-top: 50px;
-
-}
 
 
 div.dots-blue-1 {
-    margin-top: 80px;
+    margin-top: 40px;
     text-align: center;
 }
 
 div.introduction {
-    color: 4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    color: #4A4A4A;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     margin-top: 50px;
     text-align: center;
 }
 
+div.introduction h1 {
+    padding-bottom: 30px;
+}
+
 div.problem {
-    color: 4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    color: #4A4A4A;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
     margin-top: 5px;
-    
+    padding-bottom: 30px;
 }
 
 div.problem-dots-blue, div.problem-body {
     margin-top: 40px;
     text-align: center;
+}
+
+div.problem-body h1 {
+    padding-bottom: 30px;
 }
 
 div.food-truck img {
@@ -157,18 +189,20 @@ div.single-dots img {
 div.user-surveys {
     color: #00A8C5;
     position: relative;
-    margin-top: 140px;
+    margin-top: 40px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
+}
+
+div.user-surveys h1 {
+    padding-bottom: 30px;
 }
 
 div.survey-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
-    /*margin-top: -5px;
-    margin-left: 35%;*/
     text-align: center;
 }
 
@@ -178,47 +212,62 @@ div.dots-blue-2 {
     margin-bottom: 40px;
 }
 
+div.survey-list {
+    padding-bottom: 30px;
+}
+
 div.survey-list p {
     margin-top: 20px;
     font-size: 30px;
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     color: #4A4A4A
 }
 
 div.user-persona {
-    margin-top: 150px;
-    color: #0097B1;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
 }
 
-.persona {
-    text-align: center;
+div.user-persona h1 {
+    padding-bottom: 30px;
+}
 
+.personas {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 div.persona-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
 
+div.personas-body h5 {
+    font-size: 18px;
+}
+
+div.personas-body p {
+    font-size: 20px;
+}
+
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', cursive;
     color: #0097B1;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 h3 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     color: #4A4A4A
         
 }
 
 h5 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     color: #4A4A4A
 }
 
@@ -240,7 +289,7 @@ div.personas-head {
 }
 
 div.personas-body {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     color: #4A4A4A;
     padding-left: 30px;
     padding-right: 30px;
@@ -248,14 +297,19 @@ div.personas-body {
 
 div.analysis {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 div.analysis-head {
     text-align: center;
-    margin-top: 5%;
     color: #0097B1;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
+}
+
+div.analysis-head h1 {
+    padding-bottom: 30px;
 }
 
 div.analysis-sub-head {
@@ -265,9 +319,13 @@ div.analysis-sub-head {
 
 div.analysis-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
+}
+
+div.analysis-body p {
+    font-size: 20px;
 }
 
 div.brand-logo img {
@@ -280,7 +338,7 @@ div.brand-logo img {
 
 div.grub img {
     padding-top: 35px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 div.avatar img {
@@ -292,22 +350,27 @@ div.avatar img {
 }
 
 div.analysis-body, div.analysis-body h4, div.analysis-body p {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     color: #4A4A4A;
 }
 
 div.logo-design {
     color: #0097B1;
     position: relative;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
+}
+
+div.logo-design-head h1 {
+    padding-bottom: 30px;
 }
 
 div.logo-design-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -321,24 +384,29 @@ div.logo-design-img img {
 div.user-stories {
     color: #0097B1;
     position: relative;
-    margin-top: 80px;
+    padding-top: 30px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
+}
+
+div.user-stories-head h1 {
+    padding-bottom: 30px;
 }
 
 div.user-stories-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
 
 div.user-stories-list {
     color: #FFFFFF;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
-    
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 div.user-story-background {
@@ -349,18 +417,26 @@ div.user-story-background {
     background-size: cover;
 }
 
+div.wireframes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 div.user-flow {
     color: #0097B1;
     position: relative;
-    margin-top: 100px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
+}
+
+div.user-flow h1 {
+    padding-bottom: 30px;
 }
 
 div.user-flow-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -374,16 +450,20 @@ div.user-flow-image img {
 div.high-fidelity {
     color: #0097B1;
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
+div.high-fidelity h1 {
+    padding-bottom: 30px;
+}
+
 div.high-fidelity-intro {
-    padding: 20px;
+    padding-bottom: 20px;
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -395,36 +475,41 @@ div.high-fidelity-image img {
 div.detail-pages {
     color: #0097B1;
     position: relative;
-    margin-top: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
+}
+
+div.detail-pages-head h1 {
+    padding-bottom: 30px;
 }
 
 div.detail-pages-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
-}
-
-div.detail-pages, div.detail-page-image {
-    text-align: center;
-    margin-top:50px;;
 }
 
 div.detail-page-image img {
     width: 100%;
     height: auto;
+    padding-top: 50px
 }
 
 div.shopping-cart {
     color: #0097B1;
     position: relative;
-    margin-top: 100px;
+    padding-top: 50px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
+}
+
+div.shopping-cart h1 {
+    padding-bottom: 30px;
 }
 
 div.shopping-cart-image img {
@@ -435,7 +520,7 @@ div.shopping-cart-image img {
 
 div.shopping-cart-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -443,23 +528,30 @@ div.shopping-cart-intro {
 div.designing-homepage {
     color: #0097B1;
     position: relative;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
+}
+
+div.designing-homepage-head h1 {
+    padding-bottom: 30px;
 }
 
 div.designing-homepage-2 {
     color: #0097B1;
     position: relative;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 div.designing-homepage-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -473,16 +565,16 @@ div.homepage-wireframes img {
 div.preference-test {
     color: #0097B1;
     position: relative;
-    margin-top: 100px;
+    padding-top: 50px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
 div.about-pref-test {
     color: #4A4A4A;
     margin-top: 50px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -496,9 +588,8 @@ div.preference-wireframes img {
 div.final-design {
     color: #0097B1;
     position: relative;
-    margin-top: 100px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
@@ -510,7 +601,7 @@ div.preference-final-design img {
 
 div.about-final-design {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
     margin-top: 50px;
@@ -525,15 +616,20 @@ div.final-design-images img {
 div.what-i-learned {
     color: #0097B1;
     position: relative;
-    padding-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 50px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
+}
+
+div.what-i-learned-head {
+    padding-bottom: 30px;
 }
 
 div.what-i-learned-intro {
     color: #4A4A4A;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
 }
@@ -541,9 +637,9 @@ div.what-i-learned-intro {
 div.contact-me {
     color: #4A4A4A;
     position: relative;
-    margin-top: 80px;
+    margin-top: 50px;
     font-size: 30px;
-    font-family: 'Pacifico';
+    font-family: 'Playfair Display';
     text-align: center;
 }
 
@@ -560,10 +656,11 @@ button.send-email {
     margin-top: 0px; 
     border-radius: 0px !important;
     padding: 10px 40px;
-    background-color: #12B6D2;
-    color: #FFFFFF;
-    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(255,255,255,0);
+    color: #FFF;
+    font-family: 'Raleway', serif;
     font-size: 20px;
+    border: 1px solid white;
 }
 
 button.send-email:hover, button.view-prototype:hover {
@@ -580,8 +677,15 @@ div.project-images {
 }
 
 div.projects-head {
-    margin-top: 100px;
-    color: #FF2EA7;
+    margin-top: 50px;
+    color: #0097B1;
+}
+
+div.peachface-project-image img,
+div.blocbox-project-image img,
+div.blocjams-project-image img  {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div.peachface-project-image img {
@@ -602,13 +706,17 @@ div.blocjams-project-image img {
 }
 
 div.footer { 
-    padding: 5px;
-    font-family: 'Cormorant Garamond', serif;
+    padding: 30px 5px 0px;
+    font-family: 'Raleway', serif;
     font-size: 20px;
     color: #4A4A4A;
-    text-align: left;
 }
 
+.icon {
+    margin: 5px;
+    text-decoration: none;
+    color: #4A4A4A;
+}
 
 
 
