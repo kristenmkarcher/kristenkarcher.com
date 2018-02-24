@@ -1,5 +1,9 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
-    
+    padding-right: 0px;
 }
 
 h1 {
@@ -526,6 +530,22 @@ div.final-design-images img {
     height: auto;
 }
 
+button.btn-pink {
+    margin-top: 20px; 
+    border-radius: 0px !important;
+    padding: 10px 40px;
+    background-color: #FF5075;
+    border: 1px solid #FF5075;
+    color: #FFF;
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+}
+
+button.btn-pink:hover {
+    background-color: #FFF;
+    color: #FF5075;
+}
+
 div.what-i-learned {
     color: #7F283B;
     position: relative;
@@ -639,6 +659,23 @@ div.footer {
     color: #FF5075;
 }
 
+@media(max-width: 1276px) {
+    div.iphone {
+        margin-top: 150px;
+    }
+}
+
+@media(max-width: 1199px) {
+    div.iphone {
+        text-align: center;
+    }
+    div.iphone {
+        margin-top: 30px;
+    }
+    div.iphone img {
+        width: 50%;
+    }
+}
 
 
 

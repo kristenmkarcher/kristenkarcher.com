@@ -2,130 +2,133 @@
 <html>
     <head>
         <link rel="shortcut icon" href="images/flower.ico" />
-
         <title>Kristen Karcher</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> 
-        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+Unicase|Pacifico|Merriweather" rel="stylesheet">
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
     <body>
-        <section class="top">
-            <nav class="navbar">
-                <div class="container-fluid">
-                    <div class="navbar-header logo">
-                        <a class="navbar-brand" href="#">
-                            kristen<strong>karcher</strong>
-                        </a>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcollapse" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="navbar-collapse collapse" id="navcollapse">
-                        <ul class="nav navbar-nav navbar-right" id="menu">
-                            <li><a href="#About">About</a></li>  
-                            <li><a href="#Projects">Projects</a></li>
-                            <li><a href="mailto:kristenmkarcher@gmail.com?Subject=Hello!" target="_top" class="nav-contact-link"><button class="btn nav-contact">Contact Me</button></a></li>
-                        </ul>
-                    </div> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand logo" href="#">
+                kristen<strong>karcher</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="nav navbar-nav navbar-right ml-auto" id="menu">
+                    <li><a href="about.html">About</a></li>  
+                    <li><a href="../../index.html#Projects">Projects</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="mailto:kristenmkarcher@gmail.com?Subject=Hello!" target="_top">Contact Me</a></li>
                 </div>
-            </nav>
-            <div class="zigzag"></div>
-            <header>
-                <div class="row main-head">
-                    <div class="col-sm-3 col-sm-offset-2 main-head-img"> 
-                        <img src="images/kristensketch.png">
-                    </div>
-                    <div class="col-sm-5 col-sm-offset-1 main-head-txt">
-                        <h1>Kristen Karcher</h1>
-                        <h3>Connecticut-based user interface designer</h3>
-                    </div>
-                </div>
-                <div class="row main-break">
-                    <div class="col-sm-3 flowers floating-leaves">
-                        <img src="images/flowers.png" class="flowers">
-                    </div>
-                </div>
-            </header>
-            <section>
-                <div class="container-fluid about">
-                    <div class="row about-body">
-                        <div class="col-sm-4 col-sm-offset-1 polaroid-image">
-                            <a>
-                                <img class="img-fluid" src="images/kristen.jpg" alt="" title="">
-                            </a>
-                        </div>
-                        <div class="col-sm-5">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <h2 id="About">About Me</h2>
-                                </div>
-                                <div class="col-sm-12 about-txt">
-                                    <p>Technology and art are two things that have surrounded me throughout my life. While I grew up around the latest technology, I was always more fascinated with art. Pen to paper, paint to canvas; my childhood focused on drawing, painting, and lettering. After a few years of self discovery, I decided to combine these two constants in my life and pursue web design. I love bright and bold designs, but I excel at translating any idea into reality.<br><br>
-                                    While not working, I can be found enjoying the outdoors, working with various artistic mediums, and going for long walks with my three dogs. I am always looking to meet and collaborate with others, and continue growing my skills. If you like what you see, feel free to reach out!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>      
-            </section>
-        </section>
-        <section>
-            <div class="container-fluid bottom">
-                <div class="row about-break">
-                    <div class="col-sm-4 col-sm-offset-8 leaves-2 floating-leaves">
-                        <img src="images/leaves2.png" class="leaves2">
-                    </div>
-                </div>
-                <div class="row projects projects-head">
-                    <div class="col-sm-4 col-sm-offset-3">
-                        <h2 id="Projects">Projects</h2>
-                    </div>
-                </div>
+            </div>
+        </nav>
+        <div class="intro sec">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-4 col-sm-offset-3">
-                        <a href="projects/truckin/truckin.html">
-                            <img src="images/foodapp2.png" class="project1">
-                        </a>
-                            </div>
-                    <div class="col-sm-4">
-                        <a href="projects/peachface/peachface.html">
-                            <img src="images/peachfacelogo2.png" class="project1">
-                        </a>
+                    <div class="col-xs-12 col-lg-12 col-xl-5 offset-xl-1 intro-head">
+                        <h1>Hi!</h1>
+                        <h1>I'm Kristen Karcher,<br>a Connecticut-based user interface designer.</h1>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 col-sm-offset-3">
-                        <a href="projects/blocjams/index.html">
-                        <img src="images/blocjamslogo.png" class="project1">
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                            <img src="images/blocbox.png" class="project1">
-                    </div>
-                </div>
-                <div class="foot-img floating-leaves">
-                    <img src="images/leaves3.png" class="leaves3">
-                </div>
-                <div class="foot">
-                    <div class="foot-head">
-                        <h3>Do you like what you see?<br>Let's work together!</h3>
-                        <a href="mailto:kristenmkarcher@gmail.com?Subject=Hello!" target="_top"><button class="btn send-email">Send me an email</button></a>
-                    </div>
-                    <div class="footer">
-                        <p>&copy <b>2018 Kristen Karcher</b></p>
-
+                    <div class="col-xs-12 col-lg-12 col-xl-4 iphone">
+                        <img src="images/iphone-in-hand.png">
                     </div>
                 </div>
             </div>
-        </section>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
-        </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        </div>
+        <div class="peach sec" id="Projects">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 peach-img">
+                        <img src="images/cosmetic-no-background.png">
+                    </div>
+                    <div class="col-md-4 offset-md-1 peach-body">
+                        <img src="images/view-peachface-project.png">
+                        <h2>Delicately delicious</h2>
+                        <a href="projects/peachface/peachface.html">
+                            <button class="kk-btn peach-btn">View Case Study</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="truckin sec">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6 offset-xs-3 col-md-3 offset-md-2 truckin-img">
+                        <img src="images/brown-bag.png">
+                    </div>
+                    <div class="col-md-5 offset-md-1 truckin-body">
+                        <img src="images/truckin-logo-white.png">
+                        <h2>Driving home the goodness</h2>
+                        <a href="projects/truckin/truckin.html">
+                            <button class="kk-btn truckin-btn">View Case Study</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jams sec">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 offset-md-1 jams-body">
+                        <img src="images/view-blocjams-project.png">
+                        <h2>Turn the music up!</h2>
+                        <a href="projects/blocjams/index.html">
+                            <button class="kk-btn jams-btn">View Project</button>
+                        </a>
+                    </div>
+                    <div class="col-md-6 jams-img">
+                        <img src="images/vinyl-record-mockup.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box sec">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 box-body">
+                        <img src="images/blocbox-logo-white.png">
+                        <h2>Save, share, and collaborate</h2>
+                        <Button class="kk-btn box-btn">Coming Soon</Button>
+                    </div>
+                    <div class="col-md-8 offset-md-2">
+                        <div class="box-img">
+                            <img src="images/blocbox-laptop.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-2 foot-img">
+                            <img src="images/kristen-logo.png">
+                        </div>
+                        <div class="col-md-6 offset-md-1 footer">
+                            <p>Thank you for viewing my work!</p>
+                            <p>Feel free to get in touch.</p>
+                            <div>
+                                <a href="mailto:kristenmkarcher@gmail.com?Subject=Hello!" class="nav-contact-link icon"><i class="fas fa-envelope"></i></a>
+                                <a href="http://www.linkedin.com/in/kristen-karcher" class="icon"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/kristenmkarcher" class="icon"><i class="fab fa-github"></i></a>
+                            </div>
+                            <p>&copy <b>2018 Kristen Karcher</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113231506-1"></script>
         <script>

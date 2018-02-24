@@ -1,0 +1,336 @@
+html, body {
+    text-align: center;
+}
+
+.sec {
+    height: 100%;
+    min-height: 100%;
+    padding: 30px 0;
+}
+
+html > body .sec {
+    height: auto;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 70px;
+    color: #FFFFFF    
+}
+
+button.kk-btn {
+    margin-top: 20px; 
+    border-radius: 0px !important;
+    padding: 10px 40px;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+}
+
+
+nav.navbar {
+    background: linear-gradient(to right, #E86B9C, #FF8F78);
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+div.logo {
+    padding-left: 2%;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #4A4A4A;
+    padding-left: 50px;
+}
+
+div.nav {
+    margin-right: 50px;
+    float: right;
+}
+
+div.nav li a {
+    text-decoration: none;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    color: #7F5F66;
+    padding: 0 10px;
+}
+
+div.nav li a:hover {
+    color: #FFF;
+}
+
+div.nav li a.nav-contact-link:hover {
+    background-color: transparent;
+}
+
+.intro {
+    background: linear-gradient(to right, #E86B9C, #FF8F78);
+    padding-bottom: 0;
+}
+
+.intro .row {
+}
+
+div.intro-head {
+    text-align: left;
+}
+
+div.iphone {
+}
+
+div.iphone img {
+    width: 100%;
+    height: auto;
+}
+
+.peach {
+    background: linear-gradient(to right, #FFFFFF, #FFD0E9);
+}
+
+div.peach-img {
+    margin-left: -4%;
+}
+
+div.peach-img img {
+    height: auto;
+    width: 100%;
+}
+
+div.peach-body {
+    margin-top: 15%;
+}
+
+div.peach-body h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+button.peach-btn {
+    border: 1px solid #7F5F66;
+    color: #7F5F66;
+}
+
+button.peach-btn:hover {
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    color: #FF5075;
+}
+
+.truckin {
+    background: linear-gradient(to right, #18B2C8, #29DCEB);
+}
+
+div.truckin-body {
+    margin-top: 10%;
+}
+
+div.truckin-body h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+div.truckin-img {
+    margin-top: -30px
+}
+
+div.truckin-img img {
+    height: auto;
+    width: 100%;
+}
+
+button.truckin-btn:hover {
+    background-color: #fff;
+    color: #12B6D2;
+}
+
+.jams {
+    background: linear-gradient(to right, #DFAEF0, #3B2153);
+}
+
+div.jams-body {
+    padding-top: 8%;
+}
+
+div.jams-body h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+div.jams-img {
+    margin: 100px 0;
+}
+
+div.jams-img img {
+    width: 100%;
+    height: auto;
+}
+
+button.jams-btn {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+button.jams-btn:hover {
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    color: #3B2153;
+}
+
+
+.box {
+    background: linear-gradient(to right, #1C2834, #2E5178);
+    padding-bottom: 0px;
+    padding-top: 60px
+}
+
+div.box-body h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+div.box-img {
+    margin-top: 100px
+}
+
+div.box-img img {
+    width: 100%;
+    height: auto;
+}
+
+button.jams-btn {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+button.jams-btn:hover {
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    color: #3B2153;
+}
+
+button.box-btn {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+button.box-btn:hover {
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    color: #1C2834;
+}
+
+.foot {
+    background-color: #62ACFF
+}
+
+div.foot-img {
+    padding: 1%
+}
+
+div.foot-img img {
+    width: 60%;
+    height: auto;
+}
+
+div.footer { 
+    padding: 10px 5px 0px;
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+div.footer p {
+    margin: 3px;
+}
+
+.icon {
+    margin: 5px;
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+@media(max-width: 1843px) {
+    div.foot-img {
+        margin-top: 15px
+    }
+    div.iphone img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(min-width: 1480px) {
+    div.intro-head {
+        padding-top: 45px;
+    }
+}
+
+@media(max-width: 1477px) {
+    div.iphone {
+    }
+    div.iphone img {
+        width: auto;
+        height: 650px;
+        padding-right: 20px;
+    }
+    div.truckin-body {
+        margin-top: 5%;
+    }
+}
+
+@media(max-width: 1203px) {
+    div.intro-head {
+        text-align: center;
+    }
+    div.iphone img {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 1199px) {
+    div.intro-head {
+        text-align: center;
+    }
+}
+
+@media(max-width: 991px) {
+    div.foot-img img {
+        width: 80%
+    }
+    div.intro-head {
+        text-align: center;
+    }
+    div.iphone img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media(max-width: 767px) {
+    div.truckin-img img {
+        width: 50%
+    }
+}
+
+@media(max-width: 600px) {
+    div.foot-img img {
+        width: 40%
+    }
+    div.iphone img {
+        width: 100%;
+        height: auto;
+    }
+}

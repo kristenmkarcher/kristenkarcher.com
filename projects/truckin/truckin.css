@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     
 }
@@ -32,7 +36,7 @@ div.bag-image {
 
 div.bag-image img {
     position: relative;
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-top: -65px;
 
@@ -613,6 +617,22 @@ div.final-design-images img {
     height: auto;
 }
 
+button.btn-blue {
+    margin-top: 20px; 
+    border-radius: 0px !important;
+    padding: 10px 40px;
+    background-color: #12B6D2;
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    border: 1px solid #12B6D2;
+    color: #FFF;
+}
+
+button.btn-blue:hover {
+    background-color: #FFF;
+    color: #12B6D2;
+}
+
 div.what-i-learned {
     color: #0097B1;
     position: relative;
@@ -718,5 +738,40 @@ div.footer {
     color: #4A4A4A;
 }
 
+@media(max-width: 1500px) {
+    div.logo-image {
+        margin-left: 150px;
+    }
+    div.logo-text {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 1400px) {
+    div.logo-image {
+        margin-left: 150px;
+    }
+    div.logo-text {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 1200px) {
+    div.logo-image {
+        margin-left: 130px;
+    }
+    div.logo-text {
+        margin-left: 60px
+    }
+
+    
+@media(max-width: 992px) {
+    div.logo-image {
+        margin-left: 0px;
+    }
+    div.logo-text {
+        margin-left: 0px;
+    }
+}
 
 
