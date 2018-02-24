@@ -43,7 +43,7 @@ div.logo {
     padding-left: 2%;
 }
 
-.navbar-brand {
+.navbar-brand.logo {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
     text-decoration: none;
@@ -60,7 +60,7 @@ div.nav li a {
     text-decoration: none;
     font-family: 'Raleway', serif;
     font-size: 18px;
-    color: #7F5F66;
+    color: #4A4A4A;
     padding: 0 10px;
 }
 
