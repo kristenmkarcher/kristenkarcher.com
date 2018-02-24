@@ -1,9 +1,10 @@
 html {
     overflow-x: hidden;
+    text-align: center;
 }
 
 body {
-    padding-right: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -37,14 +38,14 @@ div.sec-white {
 }
 
 div.sec-grad, div.sec-white {
-    padding: 30px 0;
+    padding: 30px 15px;
 }
 
 nav.navbar {
     background: linear-gradient(to right, #FEE9F4, #FFD0E9);
 
 }
-
+/*
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -94,6 +95,48 @@ button.nav-contact {
 
 button.nav-contact:hover {
     background-color: #FF9DB2;
+}
+*/
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+div.logo {
+    padding-left: 2%;
+}
+
+.navbar-brand.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #4A4A4A;
+    padding-left: 50px;
+}
+
+div.nav {
+    margin-right: 50px;
+    float: right;
+}
+
+div.nav li {
+    display: inline;
+}
+
+div.nav li a {
+    text-decoration: none;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    color: #4A4A4A;
+    padding: 0 10px;
+}
+
+div.nav li a:hover {
+    color: #FFF;
+}
+
+div.nav li a.nav-contact-link:hover {
+    background-color: transparent;
 }
 
 div.main-head {
@@ -261,6 +304,11 @@ div.personas-body {
     color: #7F5F66;
     padding-left: 30px;
     padding-right: 30px;
+    text-align: center;
+}
+
+div.personas-body h3 {
+    text-align: center;
 }
 
 div.personas-body h5 {
@@ -555,6 +603,13 @@ div.what-i-learned {
     font-size: 60px;
     font-family: 'Playfair Display';
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.what-i-learned-pad {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 div.what-i-learned-intro {
@@ -662,9 +717,9 @@ div.footer {
     color: #FF5075;
 }
 
-@media(max-width: 1276px) {
+@media(max-width: 1313px) {
     div.iphone {
-        margin-top: 150px;
+        margin-top: 140px;
     }
 }
 
@@ -673,12 +728,42 @@ div.footer {
         text-align: center;
     }
     div.iphone {
-        margin-top: 30px;
+        margin-top: 160px;
     }
     div.iphone img {
-        width: 50%;
+        width: 120%;
+    }
+}
+
+@media(max-width: 1099px) {
+    div.iphone {
+        margin-top: 240px;
     }
 }
 
 
+@media(max-width: 991px) {
+    div.iphone {
+        margin-top: 20px;
+    }
+    div.iphone img {
+        width: 50%;
+    }
+    div.truckin-project-image img,
+    div.blocbox-project-image img,
+    div.blocjams-project-image img {
+        width: 50%;
+    }
+    div.nav li {
+        padding: 10px;
+    }
+    div.nav li a {
+        font-size: 28px;
+        color: #4A4A4A;
+        padding: 0 10px;
+    }
+    div.brand-logo img {
+        margin-top: 50px
+    }
+}
 
