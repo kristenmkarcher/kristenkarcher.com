@@ -18,6 +18,11 @@ h1 {
     color: #FFFFFF    
 }
 
+div.sec-pad {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -66,7 +71,7 @@ div.about {
 }
 
 .about-body p {
-    font-size: 28px;
+    font-size: 24px;
     color: #4A4A4A;
 }
 
@@ -94,6 +99,7 @@ button.kk-btn:hover {
 
 div.about-img {
     padding-right: 0;
+    padding-top: 100px;
 }
 
 div.about-img img {
@@ -144,13 +150,13 @@ div.footer p {
 
 @media(max-width: 1550px) {
     div.about-img {
-        padding-top: 60px;
+        padding-top: 150px;
     }
 }
 
 @media(max-width: 1400px) {
     div.about-img {
-        padding-top: 140px;
+        padding-top: 220px;
     }
 }
 
@@ -166,6 +172,12 @@ div.footer p {
         margin-top: 0;
         margin-bottom: 20px;
     }
+    div.about-img img {
+        width: 50%;
+    }
+    div.about-img {
+        padding-top: 50px;
+    }
 }
 
 @media(max-width: 991px) {
@@ -179,3 +191,8 @@ div.footer p {
     }
 }
 
+@media(max-width: 700px) {
+    div.about-img img {
+        width: 80%;
+    }
+}

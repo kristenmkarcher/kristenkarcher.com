@@ -1,9 +1,10 @@
 html {
     overflow-x: hidden;
+    text-align: center;
 }
 
 body {
-    
+    padding: 0px;
 }
 
 .row {
@@ -17,6 +18,10 @@ div.alt-sec-up {
 
 div.alt-sec-down {
     background: linear-gradient(to right, #18B2C8, #29DCEB);
+}
+
+div.alt-sec-up, div.alt-sec-down {
+    padding: 30px 20px;
 }
 
 div.alt-sec-down h1 {
@@ -38,14 +43,8 @@ div.bag-image img {
     position: relative;
     width: 50%;
     height: auto;
-    margin-top: -65px;
+    margin-top: -95px;
 
-}
-
-@media (max-width: 992px) {
-    div.bag-image {
-        display: none;
-    }
 }
 
 div.logo-image {
@@ -103,47 +102,37 @@ div.logo {
     padding-left: 2%;
 }
 
-div.logo .navbar-brand {
+.navbar-brand.logo {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
     text-decoration: none;
     color: #4A4A4A;
-    padding-left: 33px;
-    padding-top: 21px;
+    padding-left: 50px;
 }
 
-ul.nav {
-    margin-right: 35px;
+div.nav {
+    margin-right: 50px;
+    float: right;
 }
 
-ul.nav li a {
+div.nav li {
+    display: inline;
+}
+
+div.nav li a {
     text-decoration: none;
     font-family: 'Raleway', serif;
     font-size: 18px;
     color: #4A4A4A;
-    padding: 21px 10px 15px 10px;
+    padding: 0 10px;
 }
 
-ul.nav li a:hover {
-    color: #00A8C5;
+div.nav li a:hover {
+    color: #FFF;
 }
 
-ul.nav li a.nav-contact-link:hover {
+div.nav li a.nav-contact-link:hover {
     background-color: transparent;
-}
-
-button.nav-contact {
-    margin-top: -8%;
-    border-radius: 0px !important;
-    background-color: #00A8C5;
-    color: #FFFFFF;
-    font-family: 'Raleway', serif;
-    font-size: 20px;
-}
-
-button.nav-contact:hover {
-    background-color: #fff;
-    color: #00A8C5;
 }
 
 
@@ -395,6 +384,7 @@ div.user-stories {
     font-size: 50px;
     font-family: 'Playfair Display';
     text-align: center;
+    padding-bottom: 0;
 }
 
 div.user-stories-head h1 {
@@ -646,6 +636,11 @@ div.what-i-learned {
     text-align: center;
 }
 
+div.what-i-learned-pad {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 div.what-i-learned-head {
     padding-bottom: 30px;
 }
@@ -766,7 +761,6 @@ div.footer {
     div.logo-text {
         margin-left: 60px
     }
-
     
 @media(max-width: 992px) {
     div.logo-image {
@@ -774,6 +768,22 @@ div.footer {
     }
     div.logo-text {
         margin-left: 0px;
+    }
+    div.nav li {
+        padding: 10px;
+    }
+    div.nav li a {
+        font-size: 28px;
+        color: #4A4A4A;
+        padding: 0 10px;
+    }
+    div.truckin-project-image img,
+    div.blocbox-project-image img,
+    div.blocjams-project-image img {
+        width: 50%;
+    }
+    div.bag-image {
+        display: none;
     }
 }
 
