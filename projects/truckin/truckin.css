@@ -108,10 +108,12 @@ div.logo .navbar-brand {
     font-size: 25px;
     text-decoration: none;
     color: #4A4A4A;
+    padding-left: 33px;
+    padding-top: 21px;
 }
 
 ul.nav {
-    margin-right: 1%;
+    margin-right: 35px;
 }
 
 ul.nav li a {
@@ -119,6 +121,7 @@ ul.nav li a {
     font-family: 'Raleway', serif;
     font-size: 18px;
     color: #4A4A4A;
+    padding: 21px 10px 15px 10px;
 }
 
 ul.nav li a:hover {
