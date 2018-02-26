@@ -128,7 +128,7 @@ div.nav li a {
 }
 
 div.nav li a:hover {
-    color: #2DCC70;
+    color: #5CC2FF;
 }
 
 div.nav li a.nav-contact-link:hover {
@@ -278,6 +278,10 @@ div.personas {
 div.personas-head {
     margin-left: 20px;
     margin-right: 30px;
+}
+
+div.personas-body-intro h1 {
+    color: #5CC2FF;
 }
 
 div.personas-body {
@@ -775,15 +779,15 @@ div.footer {
     }
     div.logo-text {
         margin-left: 0px;
-    }
+    }*/
     div.nav li {
         padding: 10px;
     }
     div.nav li a {
         font-size: 28px;
-        color: ##2DCC70;
+        color: #FFF;
         padding: 0 10px;
-    }*/
+    }
     div.truckin-project-image img,
     div.peachface-project-image img,
     div.blocjams-project-image img {
