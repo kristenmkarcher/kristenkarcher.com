@@ -622,7 +622,6 @@ button.btn-blue {
 }
 
 button.btn-blue:hover {
-    background-color: #FFF;
     color: #12B6D2;
 }
 
@@ -682,7 +681,6 @@ button.send-email {
 }
 
 button.send-email:hover, button.view-prototype:hover {
-    background-color: #fff;
     color: #12B6D2;
 }
 
@@ -735,6 +733,16 @@ div.footer {
     text-decoration: none;
     color: #4A4A4A;
 }
+
+.hvr-shutter-out-horizontal:before {
+    background: #FFF;
+}
+
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+  color: rgba(255,255,255,0);
+}
+
+
 
 @media(max-width: 1500px) {
     div.logo-image {

@@ -92,7 +92,6 @@ button.kk-btn {
 }
 
 button.kk-btn:hover {
-    background-color: #fff;
     border: 1px solid #fff;
     color: #F765B9
 }
@@ -146,6 +145,14 @@ div.footer p {
 
 .icon:hover {
     color: #FF5075;
+}
+
+.hvr-shutter-out-horizontal:before {
+    background: #FFF;
+}
+
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+  color: rgba(255,255,255,0);
 }
 
 @media(max-width: 1550px) {

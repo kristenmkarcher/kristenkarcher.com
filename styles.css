@@ -130,7 +130,6 @@ button.peach-btn {
 
 button.peach-btn:hover {
     border: 1px solid #FFF;
-    background-color: #FFF;
     color: #FF5075;
 }
 
@@ -158,7 +157,6 @@ div.truckin-img img {
 }
 
 button.truckin-btn:hover {
-    background-color: #fff;
     color: #12B6D2;
 }
 
@@ -192,7 +190,6 @@ button.jams-btn {
 
 button.jams-btn:hover {
     border: 1px solid #FFF;
-    background-color: #FFF;
     color: #3B2153;
 }
 
@@ -225,7 +222,6 @@ button.jams-btn {
 
 button.jams-btn:hover {
     border: 1px solid #FFF;
-    background-color: #FFF;
     color: #3B2153;
 }
 
@@ -236,7 +232,6 @@ button.box-btn {
 
 button.box-btn:hover {
     border: 1px solid #FFF;
-    background-color: #FFF;
     color: #1C2834;
 }
 
@@ -245,7 +240,8 @@ button.box-btn:hover {
 }
 
 div.foot-img {
-    padding: 1%
+    padding: 1%;
+    margin-left: 23px;
 }
 
 div.foot-img img {
@@ -269,6 +265,14 @@ div.footer p {
     margin: 5px;
     text-decoration: none;
     color: #4A4A4A;
+}
+
+.hvr-shutter-out-horizontal:before {
+    background: #FFF;
+}
+
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+  color: rgba(255,255,255,0);
 }
 
 @media(max-width: 1843px) {
@@ -344,12 +348,16 @@ div.footer p {
     div.truckin-img img {
         width: 50%
     }
+    div.foot-img {
+        margin: 20px 0 0 0;
+    }
+    div.foot-img img {
+        width: 30%;
+    }
 }
 
 @media(max-width: 600px) {
-    div.foot-img img {
-        width: 40%
-    }
+    
     div.iphone img {
         width: 100%;
         height: auto;

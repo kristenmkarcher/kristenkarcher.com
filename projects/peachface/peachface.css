@@ -593,7 +593,6 @@ button.btn-pink {
 }
 
 button.btn-pink:hover {
-    background-color: #FFF;
     color: #FF5075;
 }
 
@@ -715,6 +714,14 @@ div.footer {
 
 .icon:hover {
     color: #FF5075;
+}
+
+.hvr-shutter-out-horizontal:before {
+    background: #FFF;
+}
+
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+    color: rgba(255,255,255,0);
 }
 
 @media(max-width: 1313px) {

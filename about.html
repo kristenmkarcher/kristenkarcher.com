@@ -2,11 +2,12 @@
 <html>
     <head>
         <link rel="shortcut icon" href="images/flower.ico" />
-        <title>Kristen Karcher</title>
+        <title>Kristen Karcher | About Me</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> 
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
-        
+        <link rel="stylesheet" href="aos.css" />
+        <link rel="stylesheet" href="hover.css" type="text/css">
         <link rel="stylesheet" href="about.css" type="text/css">
     </head>
     <body>
@@ -29,16 +30,20 @@
         <div class="container-fluid">
             <div class="row about sec-pad">
                 <div class="col-lg-12 col-xl-5 offset-xl-1 about-body">
-                    <h1>A little about me.</h1>
-                    <p>
+                    <div data-aos="fade-down" data-aos-duration="1500">
+                        <h1>A little about me.</h1>
+                    </div>
+                    <div data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
+                        <p>
                         Technology and art are two things that have surrounded me throughout my life. While I grew up around the latest technology, I was always more fascinated with art. Pen to paper, paint to canvas; my childhood focused on drawing, painting, and lettering. After a few years of self discovery, I decided to combine these two constants in my life and pursue web design. I love bright and bold designs, but I excel at translating any idea into reality.
-                    </p>
-                    <p>
-                        While not working, I can be found lifting weights, enjoying the outdoors, working with various artistic mediums, spending time with my family, and going for long walks with my three dogs. I am always looking to meet and collaborate with others, and continue growing my skills. If you like what you see, feel free to reach out!
-                    </p>
-                    <a href="mailto:kristenmkarcher@gmail.com?Subject=Hello!">
-                        <button class="kk-btn">Contact Me</button>
-                    </a>
+                        </p>
+                        <p>
+                            While not working, I can be found lifting weights, enjoying the outdoors, working with various artistic mediums, spending time with my family, and going for long walks with my three dogs. I am always looking to meet and collaborate with others, and continue growing my skills. If you like what you see, feel free to reach out!
+                        </p>
+                        <a href="mailto:kristenmkarcher@gmail.com?Subject=Hello!">
+                            <button class="kk-btn hvr-shutter-out-horizontal">Contact Me</button>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-12 col-xl-4 about-img">
                     <img src="images/wood-frame-beach.png">
@@ -68,6 +73,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="aos.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113231506-1"></script>
         <script>
@@ -76,6 +82,9 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-113231506-1');
+        </script>
+        <script>
+            AOS.init();
         </script>
     </body>
 </html>
