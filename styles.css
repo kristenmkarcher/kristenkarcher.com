@@ -240,7 +240,7 @@ button.box-btn:hover {
 }
 
 div.foot-img {
-    padding: 1%;
+    padding: 5px 0 15px 0;
     margin-left: 23px;
 }
 
@@ -250,7 +250,7 @@ div.foot-img img {
 }
 
 div.footer { 
-    padding: 10px 5px 0px;
+    padding: 20px 0px 0px;
     font-family: 'Raleway', serif;
     font-size: 20px;
     color: #4A4A4A;
