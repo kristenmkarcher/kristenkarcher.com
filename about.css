@@ -1,5 +1,7 @@
 html, body {
     text-align: center;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -111,7 +113,7 @@ div.plant-1 {
 }
 
 div.plant-1 img {
-    width: 110%;
+    width: 120%;
     height: auto;
 }
 
