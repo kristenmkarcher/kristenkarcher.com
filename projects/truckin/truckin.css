@@ -291,6 +291,11 @@ div.personas-body {
     padding-right: 30px;
 }
 
+div.personas-body2, div.personas-body6,
+div.personas-body3, div.personas-body11{
+    margin-bottom: 45px;
+}
+
 div.analysis {
     text-align: center;
     padding-top: 30px;
@@ -318,6 +323,14 @@ div.analysis-intro {
     font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
+}
+
+div.analysis-body5 {
+    margin-bottom: 45px;
+}
+
+div.analysis-body6 {
+    margin-bottom: 47px;
 }
 
 div.analysis-body p {
@@ -792,6 +805,32 @@ div.footer {
     }
     div.bag-image {
         display: none;
+    }
+    div.personas-body1,
+    div.personas-body2,
+    div.personas-body3,
+    div.personas-body4,
+    div.personas-body5,
+    div.personas-body6,
+    div.personas-body7,
+    div.personas-body8,
+    div.personas-body9,
+    div.personas-body10,
+    div.personas-body11,
+    div.personas-body12,
+    div.analysis-body1,
+    div.analysis-body2,
+    div.analysis-body3,
+    div.analysis-body4,
+    div.analysis-body5,
+    div.analysis-body6,
+    div.analysis-body7,
+    div.analysis-body8,
+    div.analysis-body9,
+    div.analysis-body10,
+    div.analysis-body11,
+    div.analysis-body12 {
+        margin-bottom: 10px;
     }
 }
 

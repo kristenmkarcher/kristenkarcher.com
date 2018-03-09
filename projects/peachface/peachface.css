@@ -307,6 +307,26 @@ div.personas-body {
     text-align: center;
 }
 
+div.personas-body7,
+div.personas-body9{
+    margin-bottom: 48px
+}
+
+div.personas-body1 {
+    margin-bottom: 15px;
+}
+
+div.personas-body2,
+div.personas-body3,
+div.personas-body4,
+{
+    margin-bottom: 20px
+}
+
+div.personas-body5 {
+    margin-bottom: 49px
+}
+
 div.personas-body h3 {
     text-align: center;
 }
@@ -333,6 +353,7 @@ div.analysis-head {
 div.analysis-sub-head {
     padding-left: 30px;
     padding-right: 30px;
+    margin-top: 10px;
 }
 
 div.analysis-intro {
@@ -340,6 +361,22 @@ div.analysis-intro {
     font-family: 'Raleway', serif;
     font-size: 25px;
     text-align: center;
+}
+
+div.analysis-body1 {
+    margin-bottom: 20px;
+}
+
+div.analysis-body5 {
+    margin-bottom: 51px;
+}
+
+div.analysis-body7 {
+    margin-bottom: 47px;
+}
+
+div.analysis-body3 {
+    margin-bottom: 107px;
 }
 
 div.analysis-body p {
@@ -771,6 +808,32 @@ div.footer {
     }
     div.brand-logo img {
         margin-top: 50px
+    }
+    div.personas-body1,
+    div.personas-body2,
+    div.personas-body3,
+    div.personas-body4,
+    div.personas-body5,
+    div.personas-body6,
+    div.personas-body7,
+    div.personas-body8,
+    div.personas-body9,
+    div.personas-body10,
+    div.personas-body11,
+    div.personas-body12,
+    div.analysis-body1,
+    div.analysis-body2,
+    div.analysis-body3,
+    div.analysis-body4,
+    div.analysis-body5,
+    div.analysis-body6,
+    div.analysis-body7,
+    div.analysis-body8,
+    div.analysis-body9,
+    div.analysis-body10,
+    div.analysis-body11,
+    div.analysis-body12 {
+        margin-bottom: 10px;
     }
 }
 
