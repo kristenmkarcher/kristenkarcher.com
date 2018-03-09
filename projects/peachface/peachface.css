@@ -307,12 +307,13 @@ div.personas-body {
     text-align: center;
 }
 
-div.personas-body7,
-div.personas-body9{
+div.personas-body7 {
     margin-bottom: 48px
 }
 
-div.personas-body1 {
+
+div.personas-body1,
+div.personas-body9 {
     margin-bottom: 15px;
 }
 
@@ -367,10 +368,6 @@ div.analysis-body1 {
     margin-bottom: 20px;
 }
 
-div.analysis-body5 {
-    margin-bottom: 51px;
-}
-
 div.analysis-body7 {
     margin-bottom: 47px;
 }
@@ -393,6 +390,10 @@ div.brand-logo img {
     max-width: 150px;
     max-height: 150px;
     margin-top: 20%;
+}
+
+div.brand-logo-fix img {
+    margin-bottom: 5px;
 }
 
 div.avatar img {
